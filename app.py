@@ -27,7 +27,7 @@ model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # --- Imagen de referencia ---
-image = Image.open('OIG5.jpg')
+image = Image.open('IA.png')
 st.image(image, caption="Modelo de referencia", use_container_width=False, width=350)
 
 # --- Barra lateral ---
